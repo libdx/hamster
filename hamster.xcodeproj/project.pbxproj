@@ -12,13 +12,15 @@
 		E1816FAC15C297DC004C5496 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1816FAB15C297DC004C5496 /* CoreGraphics.framework */; };
 		E1816FD215C298B2004C5496 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1816FC715C298B2004C5496 /* InfoPlist.strings */; };
 		E1816FD315C298B2004C5496 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1816FC915C298B2004C5496 /* RootViewController.xib */; };
-		E1816FD415C298B2004C5496 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1816FCC15C298B2004C5496 /* AppDelegate.m */; };
-		E1816FD515C298B2004C5496 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1816FCE15C298B2004C5496 /* main.m */; };
-		E1816FD615C298B2004C5496 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1816FD015C298B2004C5496 /* RootViewController.m */; };
-		E1816FD915C29AC8004C5496 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1816FD815C29AC8004C5496 /* ListViewController.m */; };
-		E1816FDF15C2AA20004C5496 /* FeedEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = E1816FDE15C2AA20004C5496 /* FeedEntity.m */; };
-		E1816FE215C2AAEC004C5496 /* FeedList.m in Sources */ = {isa = PBXBuildFile; fileRef = E1816FE115C2AAEC004C5496 /* FeedList.m */; };
-		E1816FE515C2AC54004C5496 /* MutableFeedList.m in Sources */ = {isa = PBXBuildFile; fileRef = E1816FE415C2AC54004C5496 /* MutableFeedList.m */; };
+		E1816FF915C2CAD2004C5496 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1816FE915C2CAD2004C5496 /* main.m */; };
+		E1816FFA15C2CAD2004C5496 /* FeedEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = E1816FEC15C2CAD2004C5496 /* FeedEntity.m */; };
+		E1816FFB15C2CAD2004C5496 /* FeedList.m in Sources */ = {isa = PBXBuildFile; fileRef = E1816FEE15C2CAD2004C5496 /* FeedList.m */; };
+		E1816FFC15C2CAD2004C5496 /* MutableFeedList.m in Sources */ = {isa = PBXBuildFile; fileRef = E1816FEF15C2CAD2004C5496 /* MutableFeedList.m */; };
+		E1816FFD15C2CAD2004C5496 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1816FF215C2CAD2004C5496 /* AppDelegate.m */; };
+		E1816FFE15C2CAD2004C5496 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1816FF415C2CAD2004C5496 /* ListViewController.m */; };
+		E1816FFF15C2CAD2004C5496 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1816FF715C2CAD2004C5496 /* RootViewController.m */; };
+		E181700215C2CB66004C5496 /* FeedLoadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E181700115C2CB66004C5496 /* FeedLoadOperation.m */; };
+		E181700D15C2E222004C5496 /* FeedLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = E181700C15C2E222004C5496 /* FeedLoader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,20 +31,24 @@
 		E1816FC515C298B2004C5496 /* hamster-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "hamster-Info.plist"; sourceTree = "<group>"; };
 		E1816FC715C298B2004C5496 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
 		E1816FC915C298B2004C5496 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
-		E1816FCB15C298B2004C5496 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		E1816FCC15C298B2004C5496 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E1816FCD15C298B2004C5496 /* hamster-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "hamster-Prefix.pch"; sourceTree = "<group>"; };
-		E1816FCE15C298B2004C5496 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E1816FCF15C298B2004C5496 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		E1816FD015C298B2004C5496 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		E1816FD715C29AC8004C5496 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
-		E1816FD815C29AC8004C5496 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
-		E1816FDA15C29CA0004C5496 /* NavItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavItem.h; sourceTree = "<group>"; };
-		E1816FDD15C2AA20004C5496 /* FeedEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedEntity.h; sourceTree = "<group>"; };
-		E1816FDE15C2AA20004C5496 /* FeedEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedEntity.m; sourceTree = "<group>"; };
-		E1816FE015C2AAEC004C5496 /* FeedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedList.h; sourceTree = "<group>"; };
-		E1816FE115C2AAEC004C5496 /* FeedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedList.m; sourceTree = "<group>"; };
-		E1816FE415C2AC54004C5496 /* MutableFeedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutableFeedList.m; sourceTree = "<group>"; };
+		E1816FE815C2CAD2004C5496 /* hamster-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "hamster-Prefix.pch"; sourceTree = "<group>"; };
+		E1816FE915C2CAD2004C5496 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1816FEB15C2CAD2004C5496 /* FeedEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedEntity.h; sourceTree = "<group>"; };
+		E1816FEC15C2CAD2004C5496 /* FeedEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedEntity.m; sourceTree = "<group>"; };
+		E1816FED15C2CAD2004C5496 /* FeedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedList.h; sourceTree = "<group>"; };
+		E1816FEE15C2CAD2004C5496 /* FeedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedList.m; sourceTree = "<group>"; };
+		E1816FEF15C2CAD2004C5496 /* MutableFeedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutableFeedList.m; sourceTree = "<group>"; };
+		E1816FF115C2CAD2004C5496 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E1816FF215C2CAD2004C5496 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E1816FF315C2CAD2004C5496 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		E1816FF415C2CAD2004C5496 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		E1816FF515C2CAD2004C5496 /* NavItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavItem.h; sourceTree = "<group>"; };
+		E1816FF615C2CAD2004C5496 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		E1816FF715C2CAD2004C5496 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		E181700015C2CB66004C5496 /* FeedLoadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedLoadOperation.h; sourceTree = "<group>"; };
+		E181700115C2CB66004C5496 /* FeedLoadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedLoadOperation.m; sourceTree = "<group>"; };
+		E181700B15C2E222004C5496 /* FeedLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedLoader.h; sourceTree = "<group>"; };
+		E181700C15C2E222004C5496 /* FeedLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedLoader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +68,7 @@
 		E1816F9815C297DC004C5496 = {
 			isa = PBXGroup;
 			children = (
-				E1816FCA15C298B2004C5496 /* sources */,
+				E1816FE615C2CAD2004C5496 /* sources */,
 				E1816FC415C298B2004C5496 /* resources */,
 				E1816FA615C297DC004C5496 /* frameworks */,
 				E1816FA415C297DC004C5496 /* products */,
@@ -113,25 +119,61 @@
 			path = xibs;
 			sourceTree = "<group>";
 		};
-		E1816FCA15C298B2004C5496 /* sources */ = {
+		E1816FE615C2CAD2004C5496 /* sources */ = {
 			isa = PBXGroup;
 			children = (
-				E1816FCD15C298B2004C5496 /* hamster-Prefix.pch */,
-				E1816FCE15C298B2004C5496 /* main.m */,
-				E1816FCB15C298B2004C5496 /* AppDelegate.h */,
-				E1816FCC15C298B2004C5496 /* AppDelegate.m */,
-				E1816FCF15C298B2004C5496 /* RootViewController.h */,
-				E1816FD015C298B2004C5496 /* RootViewController.m */,
-				E1816FD715C29AC8004C5496 /* ListViewController.h */,
-				E1816FD815C29AC8004C5496 /* ListViewController.m */,
-				E1816FDA15C29CA0004C5496 /* NavItem.h */,
-				E1816FDD15C2AA20004C5496 /* FeedEntity.h */,
-				E1816FDE15C2AA20004C5496 /* FeedEntity.m */,
-				E1816FE015C2AAEC004C5496 /* FeedList.h */,
-				E1816FE115C2AAEC004C5496 /* FeedList.m */,
-				E1816FE415C2AC54004C5496 /* MutableFeedList.m */,
+				E1816FEA15C2CAD2004C5496 /* model */,
+				E1816FF015C2CAD2004C5496 /* navigation */,
+				E1816FF815C2CAD2004C5496 /* network */,
+				E1816FE715C2CAD2004C5496 /* misc */,
 			);
 			path = sources;
+			sourceTree = "<group>";
+		};
+		E1816FE715C2CAD2004C5496 /* misc */ = {
+			isa = PBXGroup;
+			children = (
+				E1816FE815C2CAD2004C5496 /* hamster-Prefix.pch */,
+				E1816FE915C2CAD2004C5496 /* main.m */,
+			);
+			path = misc;
+			sourceTree = "<group>";
+		};
+		E1816FEA15C2CAD2004C5496 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				E1816FEB15C2CAD2004C5496 /* FeedEntity.h */,
+				E1816FEC15C2CAD2004C5496 /* FeedEntity.m */,
+				E1816FED15C2CAD2004C5496 /* FeedList.h */,
+				E1816FEE15C2CAD2004C5496 /* FeedList.m */,
+				E1816FEF15C2CAD2004C5496 /* MutableFeedList.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		E1816FF015C2CAD2004C5496 /* navigation */ = {
+			isa = PBXGroup;
+			children = (
+				E1816FF115C2CAD2004C5496 /* AppDelegate.h */,
+				E1816FF215C2CAD2004C5496 /* AppDelegate.m */,
+				E1816FF615C2CAD2004C5496 /* RootViewController.h */,
+				E1816FF715C2CAD2004C5496 /* RootViewController.m */,
+				E1816FF315C2CAD2004C5496 /* ListViewController.h */,
+				E1816FF415C2CAD2004C5496 /* ListViewController.m */,
+				E1816FF515C2CAD2004C5496 /* NavItem.h */,
+			);
+			path = navigation;
+			sourceTree = "<group>";
+		};
+		E1816FF815C2CAD2004C5496 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				E181700B15C2E222004C5496 /* FeedLoader.h */,
+				E181700C15C2E222004C5496 /* FeedLoader.m */,
+				E181700015C2CB66004C5496 /* FeedLoadOperation.h */,
+				E181700115C2CB66004C5496 /* FeedLoadOperation.m */,
+			);
+			path = network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,13 +238,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1816FD415C298B2004C5496 /* AppDelegate.m in Sources */,
-				E1816FD515C298B2004C5496 /* main.m in Sources */,
-				E1816FD615C298B2004C5496 /* RootViewController.m in Sources */,
-				E1816FD915C29AC8004C5496 /* ListViewController.m in Sources */,
-				E1816FDF15C2AA20004C5496 /* FeedEntity.m in Sources */,
-				E1816FE215C2AAEC004C5496 /* FeedList.m in Sources */,
-				E1816FE515C2AC54004C5496 /* MutableFeedList.m in Sources */,
+				E1816FF915C2CAD2004C5496 /* main.m in Sources */,
+				E1816FFA15C2CAD2004C5496 /* FeedEntity.m in Sources */,
+				E1816FFB15C2CAD2004C5496 /* FeedList.m in Sources */,
+				E1816FFC15C2CAD2004C5496 /* MutableFeedList.m in Sources */,
+				E1816FFD15C2CAD2004C5496 /* AppDelegate.m in Sources */,
+				E1816FFE15C2CAD2004C5496 /* ListViewController.m in Sources */,
+				E1816FFF15C2CAD2004C5496 /* RootViewController.m in Sources */,
+				E181700215C2CB66004C5496 /* FeedLoadOperation.m in Sources */,
+				E181700D15C2E222004C5496 /* FeedLoader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +306,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "sources/hamster-Prefix.pch";
+				GCC_PREFIX_HEADER = "sources/misc/hamster-Prefix.pch";
 				INFOPLIST_FILE = "resources/hamster-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -273,8 +318,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "sources/hamster-Prefix.pch";
+				GCC_PREFIX_HEADER = "sources/misc/hamster-Prefix.pch";
 				INFOPLIST_FILE = "resources/hamster-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -299,6 +345,7 @@
 				E1816FC315C297DC004C5496 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
