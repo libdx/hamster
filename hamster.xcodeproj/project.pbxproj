@@ -10,11 +10,11 @@
 		E1816FA815C297DC004C5496 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1816FA715C297DC004C5496 /* UIKit.framework */; };
 		E1816FAA15C297DC004C5496 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1816FA915C297DC004C5496 /* Foundation.framework */; };
 		E1816FAC15C297DC004C5496 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1816FAB15C297DC004C5496 /* CoreGraphics.framework */; };
-		E1816FB215C297DC004C5496 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1816FB015C297DC004C5496 /* InfoPlist.strings */; };
-		E1816FB415C297DC004C5496 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1816FB315C297DC004C5496 /* main.m */; };
-		E1816FB815C297DC004C5496 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1816FB715C297DC004C5496 /* AppDelegate.m */; };
-		E1816FBB15C297DC004C5496 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1816FBA15C297DC004C5496 /* ViewController.m */; };
-		E1816FBE15C297DC004C5496 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1816FBC15C297DC004C5496 /* ViewController.xib */; };
+		E1816FD215C298B2004C5496 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1816FC715C298B2004C5496 /* InfoPlist.strings */; };
+		E1816FD315C298B2004C5496 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1816FC915C298B2004C5496 /* RootViewController.xib */; };
+		E1816FD415C298B2004C5496 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1816FCC15C298B2004C5496 /* AppDelegate.m */; };
+		E1816FD515C298B2004C5496 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1816FCE15C298B2004C5496 /* main.m */; };
+		E1816FD615C298B2004C5496 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1816FD015C298B2004C5496 /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +22,15 @@
 		E1816FA715C297DC004C5496 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E1816FA915C297DC004C5496 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E1816FAB15C297DC004C5496 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E1816FAF15C297DC004C5496 /* hamster-Info.plist */ = {isa = PBXFileReference; path = "hamster-Info.plist"; sourceTree = "<group>"; };
-		E1816FB115C297DC004C5496 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E1816FB315C297DC004C5496 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E1816FB515C297DC004C5496 /* hamster-Prefix.pch */ = {isa = PBXFileReference; path = "hamster-Prefix.pch"; sourceTree = "<group>"; };
-		E1816FB615C297DC004C5496 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
-		E1816FB715C297DC004C5496 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E1816FB915C297DC004C5496 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
-		E1816FBA15C297DC004C5496 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E1816FBD15C297DC004C5496 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		E1816FC515C298B2004C5496 /* hamster-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "hamster-Info.plist"; sourceTree = "<group>"; };
+		E1816FC715C298B2004C5496 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		E1816FC915C298B2004C5496 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		E1816FCB15C298B2004C5496 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E1816FCC15C298B2004C5496 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E1816FCD15C298B2004C5496 /* hamster-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "hamster-Prefix.pch"; sourceTree = "<group>"; };
+		E1816FCE15C298B2004C5496 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1816FCF15C298B2004C5496 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		E1816FD015C298B2004C5496 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,52 +50,68 @@
 		E1816F9815C297DC004C5496 = {
 			isa = PBXGroup;
 			children = (
-				E1816FAD15C297DC004C5496 /* hamster */,
-				E1816FA615C297DC004C5496 /* Frameworks */,
-				E1816FA415C297DC004C5496 /* Products */,
+				E1816FCA15C298B2004C5496 /* sources */,
+				E1816FC415C298B2004C5496 /* resources */,
+				E1816FA615C297DC004C5496 /* frameworks */,
+				E1816FA415C297DC004C5496 /* products */,
 			);
 			sourceTree = "<group>";
 		};
-		E1816FA415C297DC004C5496 /* Products */ = {
+		E1816FA415C297DC004C5496 /* products */ = {
 			isa = PBXGroup;
 			children = (
 				E1816FA315C297DC004C5496 /* hamster.app */,
 			);
-			name = Products;
+			name = products;
 			sourceTree = "<group>";
 		};
-		E1816FA615C297DC004C5496 /* Frameworks */ = {
+		E1816FA615C297DC004C5496 /* frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				E1816FA715C297DC004C5496 /* UIKit.framework */,
 				E1816FA915C297DC004C5496 /* Foundation.framework */,
 				E1816FAB15C297DC004C5496 /* CoreGraphics.framework */,
 			);
-			name = Frameworks;
+			name = frameworks;
 			sourceTree = "<group>";
 		};
-		E1816FAD15C297DC004C5496 /* hamster */ = {
+		E1816FC415C298B2004C5496 /* resources */ = {
 			isa = PBXGroup;
 			children = (
-				E1816FB615C297DC004C5496 /* AppDelegate.h */,
-				E1816FB715C297DC004C5496 /* AppDelegate.m */,
-				E1816FB915C297DC004C5496 /* ViewController.h */,
-				E1816FBA15C297DC004C5496 /* ViewController.m */,
-				E1816FBC15C297DC004C5496 /* ViewController.xib */,
-				E1816FAE15C297DC004C5496 /* Supporting Files */,
+				E1816FC515C298B2004C5496 /* hamster-Info.plist */,
+				E1816FC615C298B2004C5496 /* strings */,
+				E1816FC815C298B2004C5496 /* xibs */,
 			);
-			path = hamster;
+			path = resources;
 			sourceTree = "<group>";
 		};
-		E1816FAE15C297DC004C5496 /* Supporting Files */ = {
+		E1816FC615C298B2004C5496 /* strings */ = {
 			isa = PBXGroup;
 			children = (
-				E1816FAF15C297DC004C5496 /* hamster-Info.plist */,
-				E1816FB015C297DC004C5496 /* InfoPlist.strings */,
-				E1816FB315C297DC004C5496 /* main.m */,
-				E1816FB515C297DC004C5496 /* hamster-Prefix.pch */,
+				E1816FC715C298B2004C5496 /* InfoPlist.strings */,
 			);
-			name = "Supporting Files";
+			path = strings;
+			sourceTree = "<group>";
+		};
+		E1816FC815C298B2004C5496 /* xibs */ = {
+			isa = PBXGroup;
+			children = (
+				E1816FC915C298B2004C5496 /* RootViewController.xib */,
+			);
+			path = xibs;
+			sourceTree = "<group>";
+		};
+		E1816FCA15C298B2004C5496 /* sources */ = {
+			isa = PBXGroup;
+			children = (
+				E1816FCB15C298B2004C5496 /* AppDelegate.h */,
+				E1816FCC15C298B2004C5496 /* AppDelegate.m */,
+				E1816FCD15C298B2004C5496 /* hamster-Prefix.pch */,
+				E1816FCE15C298B2004C5496 /* main.m */,
+				E1816FCF15C298B2004C5496 /* RootViewController.h */,
+				E1816FD015C298B2004C5496 /* RootViewController.m */,
+			);
+			path = sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,7 +150,7 @@
 				en,
 			);
 			mainGroup = E1816F9815C297DC004C5496;
-			productRefGroup = E1816FA415C297DC004C5496 /* Products */;
+			productRefGroup = E1816FA415C297DC004C5496 /* products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -148,8 +164,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1816FB215C297DC004C5496 /* InfoPlist.strings in Resources */,
-				E1816FBE15C297DC004C5496 /* ViewController.xib in Resources */,
+				E1816FD215C298B2004C5496 /* InfoPlist.strings in Resources */,
+				E1816FD315C298B2004C5496 /* RootViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,32 +176,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1816FB415C297DC004C5496 /* main.m in Sources */,
-				E1816FB815C297DC004C5496 /* AppDelegate.m in Sources */,
-				E1816FBB15C297DC004C5496 /* ViewController.m in Sources */,
+				E1816FD415C298B2004C5496 /* AppDelegate.m in Sources */,
+				E1816FD515C298B2004C5496 /* main.m in Sources */,
+				E1816FD615C298B2004C5496 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		E1816FB015C297DC004C5496 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E1816FB115C297DC004C5496 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		E1816FBC15C297DC004C5496 /* ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E1816FBD15C297DC004C5496 /* en */,
-			);
-			name = ViewController.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E1816FBF15C297DC004C5496 /* Debug */ = {
@@ -237,8 +234,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "hamster/hamster-Prefix.pch";
-				INFOPLIST_FILE = "hamster/hamster-Info.plist";
+				GCC_PREFIX_HEADER = "sources/hamster-Prefix.pch";
+				INFOPLIST_FILE = "resources/hamster-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -248,8 +245,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "hamster/hamster-Prefix.pch";
-				INFOPLIST_FILE = "hamster/hamster-Info.plist";
+				GCC_PREFIX_HEADER = "sources/hamster-Prefix.pch";
+				INFOPLIST_FILE = "resources/hamster-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
