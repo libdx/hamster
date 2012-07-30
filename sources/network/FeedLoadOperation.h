@@ -8,6 +8,7 @@
 
 @protocol FeedLoadOperationDelegate;
 
+// FeedLoadOperation class designed to be launched on Main Thread (it's concurrent)
 @interface FeedLoadOperation : NSOperation
 
 @property (strong, nonatomic) NSString *feed;
