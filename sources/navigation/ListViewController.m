@@ -41,7 +41,7 @@
     _feedLists = [feedsLists copy];
     
     NSArray *feedUrlStrings = [NSArray arrayWithObjects:
-//                               @"http://feeds.feedburner.com/RayWenderlich",
+                               @"http://feeds.feedburner.com/RayWenderlich",
                                @"http://feeds.feedburner.com/vmwstudios", 
                                nil];
     _feedLoader = [FeedLoader new];
@@ -136,7 +136,10 @@
 
 - (void)feedLoader:(FeedLoader *)feedLoader didLoadFeedData:(NSData *)feedData
 {
-    [feedData writeToFile:@"/tmp/feed.xml" atomically:YES];
+    static int count = 0;
+    ++count;
+    NSString *name = [NSString stringWithFormat:@"/tmp/feed_%d.xml", count];
+    [feedData writeToFile:name atomically:YES];
 }
 
 @end

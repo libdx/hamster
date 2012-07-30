@@ -20,9 +20,6 @@
 
 @implementation FeedLoadOperation
 
-@synthesize feed = _feed;
-@synthesize delegate = _delegate;
-
 - (id)initWithFeed:(NSString *)feed
 {
     self = [super init];

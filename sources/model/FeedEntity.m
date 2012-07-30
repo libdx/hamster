@@ -10,7 +10,4 @@
 
 @implementation FeedEntity
 
-@synthesize title = _title;
-@synthesize urlString = _urlString;
-
 @end

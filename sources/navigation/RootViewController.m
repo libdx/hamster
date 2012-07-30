@@ -19,9 +19,6 @@
 
 @implementation RootViewController
 
-@synthesize listViewCtrl = _listViewCtrl;
-@synthesize navCtrl = _navCtrl;
-
 #pragma mark - View Controller
 
 - (void)viewDidLoad

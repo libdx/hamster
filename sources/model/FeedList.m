@@ -10,8 +10,6 @@
 
 @implementation FeedList
 
-@synthesize url = _url;
-
 - (id)init
 {
     self = [super init];

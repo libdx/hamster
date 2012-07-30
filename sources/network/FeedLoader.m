@@ -14,9 +14,6 @@
 
 @implementation FeedLoader
 
-@synthesize feeds = _feeds;
-@synthesize delegate = _delegate;
-
 - (void)load
 {
     for (NSString *feed in _feeds)
