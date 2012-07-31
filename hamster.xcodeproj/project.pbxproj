@@ -21,6 +21,8 @@
 		E1816FFF15C2CAD2004C5496 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1816FF715C2CAD2004C5496 /* RootViewController.m */; };
 		E181700215C2CB66004C5496 /* FeedLoadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E181700115C2CB66004C5496 /* FeedLoadOperation.m */; };
 		E181700D15C2E222004C5496 /* FeedLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = E181700C15C2E222004C5496 /* FeedLoader.m */; };
+		E191264915C7D6A5002223E1 /* NSArray+Subscripting.m in Sources */ = {isa = PBXBuildFile; fileRef = E191264815C7D6A5002223E1 /* NSArray+Subscripting.m */; };
+		E191264D15C7E85C002223E1 /* NSDictionary+Subscripting.m in Sources */ = {isa = PBXBuildFile; fileRef = E191264C15C7E85C002223E1 /* NSDictionary+Subscripting.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +51,10 @@
 		E181700115C2CB66004C5496 /* FeedLoadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedLoadOperation.m; sourceTree = "<group>"; };
 		E181700B15C2E222004C5496 /* FeedLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedLoader.h; sourceTree = "<group>"; };
 		E181700C15C2E222004C5496 /* FeedLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedLoader.m; sourceTree = "<group>"; };
+		E191264715C7D6A5002223E1 /* NSArray+Subscripting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Subscripting.h"; sourceTree = "<group>"; };
+		E191264815C7D6A5002223E1 /* NSArray+Subscripting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Subscripting.m"; sourceTree = "<group>"; };
+		E191264B15C7E85C002223E1 /* NSDictionary+Subscripting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Subscripting.h"; sourceTree = "<group>"; };
+		E191264C15C7E85C002223E1 /* NSDictionary+Subscripting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Subscripting.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +141,10 @@
 			children = (
 				E1816FE815C2CAD2004C5496 /* hamster-Prefix.pch */,
 				E1816FE915C2CAD2004C5496 /* main.m */,
+				E191264715C7D6A5002223E1 /* NSArray+Subscripting.h */,
+				E191264815C7D6A5002223E1 /* NSArray+Subscripting.m */,
+				E191264B15C7E85C002223E1 /* NSDictionary+Subscripting.h */,
+				E191264C15C7E85C002223E1 /* NSDictionary+Subscripting.m */,
 			);
 			path = misc;
 			sourceTree = "<group>";
@@ -247,6 +257,8 @@
 				E1816FFF15C2CAD2004C5496 /* RootViewController.m in Sources */,
 				E181700215C2CB66004C5496 /* FeedLoadOperation.m in Sources */,
 				E181700D15C2E222004C5496 /* FeedLoader.m in Sources */,
+				E191264915C7D6A5002223E1 /* NSArray+Subscripting.m in Sources */,
+				E191264D15C7E85C002223E1 /* NSDictionary+Subscripting.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
